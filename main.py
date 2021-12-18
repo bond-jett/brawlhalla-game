@@ -3,7 +3,7 @@
 ### Imports ###
 import sys
 import pygame
-
+from pygame.locals import *
 ### Constants ###
 
 window_width = 600
