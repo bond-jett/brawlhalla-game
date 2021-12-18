@@ -4,14 +4,11 @@
 import sys
 import pygame
 from pygame.locals import *
-### Constants ###
-
-window_width = 600
-window_height = 400
+import const
 
 ### Main Code ###
 # Initializes all pygame modules
 pygame.init()
 
 # Sets our display window
-pygame.display.set_mode(window_width, window_height)
+pygame.display.set_mode(const.window_size)
